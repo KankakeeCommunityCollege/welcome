@@ -1,6 +1,206 @@
 // Header styles
 // ==========================================
 
-//.header__bg {
-//  background-image: url('/uploads/banner-bg_new-2.jpg');
+// Styles for the blue-banner part of the header section (amazon gift card area).
+// ===============================================================================
+
+.header__bg-primary-blue {
+  background-color: $primary-blue;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__bg-primary-blue {
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+  }
+}
+
+.header__banner--typography {
+  color: $white;
+  font-family: $font-family-paragraph;
+  &--caps {
+    text-transform: uppercase;
+  }
+  &--yellow {
+    color: #efab1e;
+    font-family: $font-family-headings;
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  &--bold {
+    font-size: 1.475rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+    & sup {
+      font-size: 50%;
+      top: -.75em;
+    }
+    & a {
+      color: $white;
+      &:hover {
+        color: $darker-link
+      }
+    }
+  }
+  &--mb {
+    margin-bottom: .25rem;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .header__banner--typography {
+    &--yellow {
+      font-size: 3.15rem;
+    }
+    &--bold {
+      font-size: 1.65rem;
+    }
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .header__banner--typography {
+    &--yellow {
+      font-size: 3.85rem;
+    }
+    &--bold {
+      font-size: 1.85rem;
+    }
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .header__banner--typography--wrapper {
+    position: relative;
+    left: 1rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header__banner--typography--wrapper {
+    position: relative;
+    left: 5%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header__banner--typography--wrapper {
+    position: relative;
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__banner--typography--wrapper {
+    position: relative;
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header__banner--typography--wrapper {
+    left: 25%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__banner--typography--wrapper {
+    left: 5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header__banner--row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 997px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__banner--row {
+    max-width: 786px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header__banner--row {
+    max-width: 900px;
+  }
+}
+
+
+//.header__bg-img {
+//  background-image: url('/uploads/DSC_0774_16x9.jpg');
+//  background-repeat: no-repeat;
+//  background-size: 100% auto;
+//  height: 33vh;
 //}
+
+//@media screen and (min-width: 400px) {
+//  .header__bg-img {
+//    height: 34vh;
+//  }
+//}
+
+//@media screen and (min-width: 500px) {
+//  .header__bg-img {
+//    height: 39vh;
+//  }
+//}
+
+//@media screen and (min-width: 576px) {
+//  .header__bg-img {
+//    height: 48vh;
+//  }
+//}
+
+//@media screen and (min-width: 678px) {
+//  .header__bg-img {
+//    height: 52vh;
+//  }
+//}
+
+//@media screen and (min-width: 768px) {
+//  .header__bg-img {
+//    height: 44vh;
+//  }
+//}
+
+//@media screen and (min-width: 850px) {
+//  .header__bg-img {
+//    height: 65vh;
+//  }
+//}
+
+//@media screen and (min-width: 850px) {
+//  .header__bg-img {
+//    height: 72vh;
+//  }
+//}
+
+//@media screen and (min-width: 1050px) {
+//  .header__bg-img {
+//    height: 78vh;
+//  }
+//}
+
+//@media screen and (min-width: 1100px) {
+//  .header__bg-img {
+//    height: 82vh;
+//  }
+//}
+
+//@media screen and (min-width: 1200px) {
+//  .header__bg-img {
+//    height: 75vh;
+//  }
+//}
+
+.header__bg {
+  height: auto;
+  width: 100%;
+}

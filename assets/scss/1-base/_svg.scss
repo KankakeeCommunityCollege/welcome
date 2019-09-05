@@ -1,0 +1,70 @@
+.svg__gift-card {
+  filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.5));
+  left: 75px;
+  position: relative;
+  width: 200px;
+}
+
+@media screen and (min-width: 400px) {
+  .svg__gift-card {
+    left: 30%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .svg__gift-card {
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .svg__gift-card {
+    left: 85px;
+    top: 20px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .svg__gift-card {
+    left: auto;
+  }
+}
+
+.svg__arrow {
+  filter: drop-shadow(-5px -5px 5px rgba(0,0,0,0.5));
+  left: 30px;
+  position: absolute;
+  top: 80px;
+  transform: rotate(145deg);
+  width: 75px;
+}
+
+@media screen and (min-width: 400px) {
+  .svg__arrow {
+    left: 15%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .svg__arrow {
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .svg__arrow {
+    left: 5%;
+    top: 110px;
+    width: 95px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .svg__arrow {
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+    left: auto;
+    top: 80px;
+    transform: none;
+  }
+}

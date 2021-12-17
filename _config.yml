@@ -1,6 +1,7 @@
 title: "Kankakee Community College"
 site_name: 'Welcome'
 public-url: "https://welcome.kcc.edu"
+port: 3000
 theme: "kcc-gem-theme"
 google-tag_key: 'GTM-WVXT4NM'
 nav_links:
@@ -27,12 +28,6 @@ nav_links:
 #  - link_text: CloudCannon
 #    link_href: 'reference/cloudcannon'
 #
-collections:
-  posts:
-    output: false
-    _hide_content: true
-  contacts:
-    output: false
 defaults:
 - scope:
     path: ''
@@ -58,8 +53,6 @@ future: true
 markdown: kramdown
 
 exclude:
-  - "gulpfile.js"
-  - "gulp-tasks/"
   - "node_modules"
   - "npm-debug.log"
   - "package.json"
@@ -67,13 +60,11 @@ exclude:
   - "README.md"
   - "Gemfile"
   - "Gemfile.lock"
-  - "gulpconfig.yml"
-  - "/docs/"
-  - "yarn.lock"
-  - "/assets/adobe/"
   - "webpack.config.js"
-  - "install.sh"
   - "siteicon.png"
+  - "postcss.config.js"
+  - "buildtools/"
+  - "page-startups/"
 
 uploads_dir: # specifies the default uploads directory for CloudCannon
   - "uploads/"

@@ -132,3 +132,15 @@
     margin-top: 15px;
   }
 }
+
+.positioning__accordian--padding {
+  margin-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .positioning__accordian--padding {
+      margin-top:60px;
+  }
+}

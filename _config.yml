@@ -3,6 +3,7 @@ site_name: 'Welcome'
 public-url: "https://welcome.kcc.edu"
 url: "https://welcome.kcc.edu"
 port: 3000
+# BUILD
 theme: "landing-page-gem"
 google-tag_key: 'GTM-WVXT4NM'
 contact_phone: 815-802-8500 ## Uncomment to override default phone no. of 815-802-8500

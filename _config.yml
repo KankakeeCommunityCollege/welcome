@@ -2,6 +2,7 @@ title: "Kankakee Community College"
 site_name: 'Welcome'
 public-url: "https://welcome.kcc.edu"
 url: "https://welcome.kcc.edu"
+canonical_baseurl: "https://welcome.kcc.edu"
 port: 3000
 # BUILD
 theme: "landing-page-gem"
@@ -34,7 +35,8 @@ exclude:
   - "siteicon.png"
   - "postcss.config.js"
   - "buildtools/"
-  - "page-startups/"
+  - "look-for-deprecated-bs4-js.mjs"
+  - "look-for-deprecated-bs4-classes.mjs"
 
 uploads_dir: # specifies the default uploads directory for CloudCannon
   - "uploads/"
